@@ -6,6 +6,9 @@ A Blender add-on that checks meshes and UVs the way a game engine sees them, fix
 
 **Get it:** https://croucamp.gumroad.com/l/asset-preflight ($19, 30-day refund, includes a guide and a sample scene)
 
+## Free check-only version
+`assetpreflight_check-1.0.0.zip` in this repo is a **free, complete checker** (no fixes): it reports every problem below for one object or a whole selection and never changes your objects. The paid version adds the verified one-click fixes. Install either as a zip (Edit > Preferences > Get Extensions > Install from Disk).
+
 ## Checks
 - **Errors:** scale not applied (or negative), flipped normals, no UV map.
 - **Warnings:** UVs outside the 0-1 tile, overlapping UV islands, uneven texel density between islands (pixels per metre), loose geometry, duplicate vertices, zero-area faces, n-gons, triangle budget, empty material slots.
